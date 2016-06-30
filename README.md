@@ -1,4 +1,4 @@
-# ReduxSimpleStarter
+# Redux Authentication
 
 Redux client side authentication
 
