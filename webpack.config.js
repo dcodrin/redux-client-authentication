@@ -1,6 +1,6 @@
 module.exports = {
   entry: [
-    './src/index.js'
+    './src/index.jsx'
   ],
   output: {
     path: __dirname,
@@ -22,5 +22,6 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     contentBase: './'
-  }
+  },
+  devtool: 'source-maps'
 };
